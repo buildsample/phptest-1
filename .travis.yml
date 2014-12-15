@@ -13,4 +13,7 @@ before_script:
   - ./.travis.install.sh
 
 script:
-  - ./vendor/bin/phpunit
+  #- ./vendor/bin/phpunit
+  -  ./vendor/bin/phpunit --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage test/unit/
+
+
