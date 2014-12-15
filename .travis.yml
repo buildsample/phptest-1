@@ -11,6 +11,8 @@ php:
 
 before_script:
   - ./.travis.install.sh
+  - mkdir -p shippable/testresults
+  - mkdir -p shippable/codecoverage
 
 script:
   #- ./vendor/bin/phpunit
