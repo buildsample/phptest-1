@@ -26,7 +26,7 @@ class SuiteTest extends TestCase
 
     public function testGetName()
     {
-        $suite = new Suite('foo');
+        $suite = new Suite('food');
 
         $this->assertEquals('foo', $suite->getName());
     }
